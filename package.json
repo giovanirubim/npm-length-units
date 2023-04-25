@@ -1,0 +1,25 @@
+{
+  "name": "@giovanirubim/length-units",
+  "version": "1.0.0",
+  "description": "Implements conversions for length units",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giovanirubim/npm-length-units.git"
+  },
+  "keywords": [
+    "length-units",
+    "metric",
+    "imperial"
+  ],
+  "author": "Giovani <giovanirubim.f@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giovanirubim/npm-length-units/issues"
+  },
+  "homepage": "https://github.com/giovanirubim/npm-length-units#readme"
+}
