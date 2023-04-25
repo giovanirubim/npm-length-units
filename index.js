@@ -85,18 +85,6 @@ const findSystem = (name) => {
 	return systems[lower] ?? null;
 };
 
-const solveUsing = (name) => {
-	const system = findSystem(name);
-	if (system !== null) {
-		return system;
-	}
-	const unit = findUnit(name);
-	if (unit !== null) {
-		return [ unit ];
-	}
-	return null;
-};
-
 const stringify = (value, precision) => {
 	return Number(value.toPrecision(precision)).toString();
 };
